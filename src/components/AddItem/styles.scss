@@ -10,11 +10,10 @@
   &-currencyFilter {
     flex-grow: 2;
   }
-  &-valueInput {
-    flex-grow: 2;
+  &-valueInput,
+  &-decription  {
     > input {
       display: block;
-      width: 80px;
       height: 34px;
       padding: 0 12px;
       font-size: 14px;
@@ -29,27 +28,18 @@
       -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
       -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
       transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    } 
+  }
+  &-valueInput {
+    flex-grow: 2;
+    > input {
+      width: 80px;
     }
   }
   &-decription {
     flex-grow: 3;
     > input {
-      display: block;
       width: 450px;
-      height: 34px;
-      padding: 0 12px;
-      font-size: 14px;
-      line-height: 1.4;
-      color: #555;
-      background-color: #fff;
-      background-image: none;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-      -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-      -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     }
   }
   &-addButton {
