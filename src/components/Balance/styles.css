@@ -1,0 +1,14 @@
+.Balance-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 50px; }
+
+.Balance-text {
+  margin-right: 10px;
+  flex-grow: 2;
+  text-align: right; }
+
+.Balance-value {
+  flex-grow: 1; }
+  .Balance-value.is-negative {
+    color: #d9534f; }

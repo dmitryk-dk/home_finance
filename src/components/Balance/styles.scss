@@ -1,0 +1,18 @@
+.Balance {
+  &-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+  }
+  &-text {
+    margin-right: 10px;
+    flex-grow: 2;
+    text-align: right;
+  }
+  &-value {
+    flex-grow: 1;
+    &.is-negative {
+      color: #d9534f;
+    }
+  }
+}
